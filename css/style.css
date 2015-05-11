@@ -1,0 +1,141 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+
+
+#logo img {
+	width: 100px;
+}
+
+header {
+	margin: 20px 0 40px 0;
+	border-bottom: 2px solid #f1f1f1;
+	padding-bottom: 20px;
+	float: left;
+	width: 100%;
+}
+
+
+header aside, .my-name {
+	padding: 0 !important;
+	width: auto;
+	float: left;
+}
+
+header .my-name {
+	font-family: 'Ubuntu', sans-serif; 
+	float: right;
+}
+
+header .my-name p {
+	float: right;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 40px;
+	color: #4882a7;
+	text-transform: capitalize;
+	margin-top: 10px;
+}
+
+header .my-name span {
+	display: block;
+	font-size: 25px;
+	text-align: right;
+	color: #aeaeae;
+
+}
+
+.middle-content {
+	float: left;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.middle-content img {
+	max-width: 100%;
+}
+
+.work-part {
+    float: left;
+    margin-right: 2.5%;
+    width: calc((100% - 5%) / 3);
+}
+
+.work-part > img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.work-part:last-of-type {
+	margin-right: 0;
+}
+
+.bottom-content h2 {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	color: #4882a7;
+	margin: 0 0 20px 0;
+	text-transform: capitalize;	
+}
+
+.bottom-content {
+	float: left;
+	width: 100%;
+}
+
+
+.work-part a {
+	display: block;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	text-align: left;
+	text-transform: capitalize;	
+	text-decoration: none;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	margin: 50px 0 10px 0;
+	border-top: 2px solid #f1f1f1;
+	padding-top: 10px;
+}
+
+footer aside {
+	float: left;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	color: #aeaeae;
+	text-transform: capitalize;
+	padding-top: 10px;
+	margin: 0;
+}
+
+footer .social-media {
+    float: right;
+    width: 18%;
+}
+
+footer .social-media ul {
+	padding: 0;
+	margin:0;
+}
+
+footer .social-media li {
+    float: left;
+    font-size: 30px;
+    list-style-type: none;
+    margin-right: 13%;
+}
+
+footer .social-media li:last-of-type {
+	margin-right: 0;
+}
+
+footer .social-media li a {
+	display: block;
+	text-decoration: none;
+}
